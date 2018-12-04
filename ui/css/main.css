@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto+Slab');
+.jumbotron{
+  color:rgb(241, 81, 81);
+  /*background-image: url("../ui/image/header-bg1.jpg");*/
+  font-family: 'Lora', serif;
+}
+.navbar{
+  background-color:#0a205a;
+  font-family:'Lora',serif;
+}
+#services{
+  padding:10px;
+  color:#0a205a;
+  font-family: 'lora',serif;
+  margin:10px;
+  font-weight: 100;
+}
+section.download {
+  position: relative;
+  padding: 50px 0;
+}
