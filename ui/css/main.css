@@ -5,9 +5,9 @@ body {
   height: 100%;
 }
 
-body {
+/*body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-}
+}*/
 
 a {
   color: #f14916;
@@ -36,7 +36,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -45,8 +44,8 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
-
 section {
   padding: 100px 0;
 }
@@ -116,7 +115,7 @@ section h2 {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0px;
-      background-color: #877420;
+      background-color: #fdcb6e;
       opacity: 0.9;
     }
     #mainNav.navbar-shrink .navbar-brand {
