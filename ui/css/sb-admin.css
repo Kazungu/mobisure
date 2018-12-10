@@ -57,7 +57,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #f1c40f;
 }
 
 .scroll-to-top i {
@@ -80,54 +80,9 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   z-index: 1;
 }
 
-.navbar-nav .form-inline .input-group {
-  width: 100%;
-}
-
-.navbar-nav .nav-item.active .nav-link {
-  color: #fff;
-}
-
-.navbar-nav .nav-item.dropdown .dropdown-toggle::after {
-  width: 1rem;
-  text-align: center;
-  float: right;
-  vertical-align: 0;
-  border: 0;
-  font-weight: 900;
-  content: '\f105';
-  font-family: 'Font Awesome 5 Free';
-}
-
-.navbar-nav .nav-item.dropdown.show .dropdown-toggle::after {
-  content: '\f107';
-}
-
-.navbar-nav .nav-item.dropdown.no-arrow .dropdown-toggle::after {
-  display: none;
-}
-
-.navbar-nav .nav-item .nav-link:focus {
-  outline: none;
-}
-
-.navbar-nav .nav-item .nav-link .badge {
-  position: absolute;
-  margin-left: 0.75rem;
-  top: 0.3rem;
-  font-weight: 400;
-  font-size: 0.5rem;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav .form-inline .input-group {
-    width: auto;
-  }
-}
-
 .sidebar {
   width: 90px !important;
-  background-color: #6d95ec;
+  background-color: #40407a;
   min-height: calc(100vh - 56px);
 }
 
@@ -274,6 +229,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   --input-padding-y: 0.75rem;
 }
 
+/*login page */
 .card-login {
   max-width: 25rem;
 }
@@ -367,4 +323,12 @@ body.sidebar-toggled footer.sticky-footer {
   body.sidebar-toggled footer.sticky-footer {
     width: calc(100% - 90px);
   }
+}
+.sidebar h2{
+  color: #cc8e35;
+  margin: 10px;
+  padding: 10px;
+}
+.sidebar hr{
+  border: 1px solid #84817a;
 }
