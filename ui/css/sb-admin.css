@@ -230,14 +230,27 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 /*login page */
+#authpage{
+  background-image: url("../image/erik-witsoe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .card-login {
   max-width: 25rem;
+  background: #40407aad;
+  color:white;
 }
-
+.card-login a{
+  color:white;
+}
 .card-register {
   max-width: 40rem;
+  background: #40407aad;
+  color:white;
 }
-
+.card-register a{
+color: white;
+}
 .form-label-group {
   position: relative;
 }
