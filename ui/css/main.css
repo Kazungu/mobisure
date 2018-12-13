@@ -104,7 +104,7 @@ section h2 {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0px;
-      background-color: #fff200d0;
+      background-color: brown;
       opacity: 0.9;
     }
     #mainNav.navbar-shrink .navbar-brand {
@@ -128,11 +128,12 @@ header.masthead .header-content {
   max-width: 500px;
   margin-bottom: 100px;
   text-align: center;
+  
 }
 
 header.masthead .header-content h2 {
   font-size: 30px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Noto Serif SC', serif;
 }
 
 header.masthead .device-container {
@@ -163,13 +164,14 @@ header.masthead .device-container .screen img {
     max-width: 325px;
   }
 }
-.btn-primary {
-  color:black;
-  background: #fff200;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff200), to(#fff200));
-  background: linear-gradient(#fff200, #fff200);
+header .btn-outline-primary {
+  color: #ecf0f1;
+  border: 1px solid #e6da08de;
 }
-
+/*header .btn-outline-primary:hover{
+background-color: #f6e58db7;
+color: #0f0f0bce;
+}*/
 .text-primary {
   color: #1b1b1a;
 }
@@ -185,10 +187,10 @@ header.masthead .device-container .screen img {
   border-color: white;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+header .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active {
   color: #3d3d3d;
-  border-color: #fff200;
-  background-color: #fff200;
+  border-color: brown;
+  background-color: brown;
 }
 
 .btn {
@@ -208,7 +210,7 @@ header.masthead .device-container .screen img {
   margin:0px;
 }
 footer{
-  background:#40739e;
+  background:#121a96;
   color:#e7dddd;
   padding:40px;
  
