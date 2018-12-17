@@ -166,12 +166,13 @@ header.masthead .device-container .screen img {
 }
 header .btn-outline-primary {
   color: #ecf0f1;
-  border: 1px solid #e6da08de;
+  border: 1px solid #f0efe8de;
 }
 /*header .btn-outline-primary:hover{
 background-color: #f6e58db7;
 color: #0f0f0bce;
 }*/
+
 .text-primary {
   color: #1b1b1a;
 }
@@ -204,35 +205,32 @@ header .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-prim
   font-size: 11px;
   padding: 15px 45px;
 }
+#services{
+  margin: 15px 0;
+  text-transform: none;
+}
+#events{
+  color:#0097e6;
+}
 #contact{
   padding-left:29px;
   padding-right:20px;
   margin:0px;
 }
 footer{
-  background:#121a96;
+  background:#0c0e29;
   color:#e7dddd;
   padding:40px;
  
 }
 
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
+#gallery {
+  padding-top: 54px;
+  color:#0097e6;
 }
 
-/* Safari */
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+@media (min-width: 992px) {
+  #gallery {
+    padding-top: 56px;
+  }
 }
