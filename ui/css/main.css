@@ -209,8 +209,11 @@ header .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-prim
   margin: 15px 0;
   text-transform: none;
 }
-#events{
-  color:#0097e6;
+#about{
+  margin: 15px 0;
+}
+#about h2{
+  text-decoration-color: rgb(247, 236, 236);
 }
 #contact{
   padding-left:29px;
