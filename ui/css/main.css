@@ -169,15 +169,16 @@ header.masthead h2 {
     font-size: 1.75em;
   }
 }
+
 .floating-label-form-group {
-  position: relative;
-  border-bottom: 1px solid #e9ecef;
+  /*position: relative;*/
+  border-bottom: 1px solid #b9d3ee;
 }
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   font-size: 1.5em;
-  position: relative;
+  /*position: relative;*/
   z-index: 1;
   padding-right: 0;
   padding-left: 0;
@@ -199,8 +200,8 @@ header.masthead h2 {
   margin: 0;
   -webkit-transition: top 0.3s ease, opacity 0.3s ease;
   transition: top 0.3s ease, opacity 0.3s ease;
-  vertical-align: middle;
-  vertical-align: baseline;
+  /*vertical-align: middle;
+  vertical-align: baseline;*/
   opacity: 0;
 }
 
@@ -246,7 +247,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: rgb(118, 136, 128) !important;
 }
 
 .bg-secondary {
@@ -262,8 +263,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: rgb(209, 212, 8);
+  border-color: rgb(209, 212, 8);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
