@@ -170,7 +170,12 @@ header.masthead h2 {
     font-size: 1.75em;
   }
 }
-
+.device-container {
+  width: 300px;
+}
+.screen{
+  background: #128f76;
+}
 .floating-label-form-group {
   /*position: relative;*/
   border-bottom: 1px solid #b9d3ee;
